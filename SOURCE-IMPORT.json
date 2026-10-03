@@ -1,0 +1,107 @@
+{
+  "repository": "auto-monitor",
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "repo": "auto-os",
+      "commit": "93c3cb0259c8cfe1644e2b35baff71638be59ec5",
+      "path": "apps/025-sys-monitor",
+      "primary": true,
+      "fileCount": 15,
+      "pacFields": {
+        "name": "sys-monitor",
+        "version": "0.2.0",
+        "description": "任务管理器式系统监视器——真实系统数据（sysinfo 后端），vue/vm 双轨",
+        "scene": "ui",
+        "render": "vue",
+        "title": "System Monitor",
+        "title_zh": "系统监视器",
+        "icon": "activity",
+        "category": "system",
+        "front_port": "4025",
+        "back_port": "8425",
+        "desktop": "true",
+        "theme": "dark",
+        "accent": "indigo"
+      },
+      "files": [
+        {
+          "sourcePath": "apps/025-sys-monitor/SPEC.md",
+          "path": "SPEC.md",
+          "sha256": "fe855741b9340fee363dfe61e22ed36119cb0268b36e1ff177ef08772dc65494"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/pac.at",
+          "path": "pac.at",
+          "sha256": "a9cb273d57fb727dc36dbb6fe281ec805bb5be46c62aae3c1e5269a364b48652"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/back/api.at",
+          "path": "src/back/api.at",
+          "sha256": "3db4324bb4f7a472cc7939ddd6d9b321e9be05c2e713c4a91fc949cda5501634"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/back/sys_info.at",
+          "path": "src/back/sys_info.at",
+          "sha256": "fbf306d9efff5bba1c55c34b8c811536dceaf85d041c9d03792b0e8d764e56ef"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/front/app.at",
+          "path": "src/front/app.at",
+          "sha256": "5e108c5fbffd944ad847943c2bbe1f8212e9cf0f15ab52eecc5f4e0f286ac982"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/front/details_users.at",
+          "path": "src/front/details_users.at",
+          "sha256": "8bf33bc366c3f9e9cd3cd489afb662f4f5942a282f3825b7b826ad2a861b0aa2"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/front/performance.at",
+          "path": "src/front/performance.at",
+          "sha256": "e3ec7bfbc7def716c0d4e9d164289f0e1af8b8e10385529f6b5ff01741757c53"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/front/processes.at",
+          "path": "src/front/processes.at",
+          "sha256": "8fdaa3f0492ae90215937da2f94da3d1dd20a0790f6b463987783aece01047b9"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/front/sys_store.at",
+          "path": "src/front/sys_store.at",
+          "sha256": "b5174d38bb8574e182aa6be67c0a1b3d8ecc4bf52dfb8c27a60ef50c0c1a61fd"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/src/front/types.at",
+          "path": "src/front/types.at",
+          "sha256": "6ce2836d1410fe8930268aeb0b069424ed676eaf99ea7be1009ceb8f5e28490c"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/tests/desktop_mcp.py",
+          "path": "tests/desktop_mcp.py",
+          "sha256": "0f3a0b5e1546c4e372fa2fc5ff475ec202940f392ff4048fa338134f21f2421e"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/tests/package.json",
+          "path": "tests/package.json",
+          "sha256": "ce619a43a70ad9bfd83c7ad57e231cd6a1189e30a8041153bf30c9cecb4f4547"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/tests/playwright.config.ts",
+          "path": "tests/playwright.config.ts",
+          "sha256": "ab5ace6aad2f5a149102ef0fb6558cb4df84f2343373c6c4f945488ca063ae04"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/tests/pnpm-lock.yaml",
+          "path": "tests/pnpm-lock.yaml",
+          "sha256": "cbbe12a5226b3826f365f795dc703deb484d65b3591f1274d5379d9fdd12a76f"
+        },
+        {
+          "sourcePath": "apps/025-sys-monitor/tests/smoke.spec.ts",
+          "path": "tests/smoke.spec.ts",
+          "sha256": "63cdf4d71a97d73d0e0af06881d7e098df173e70ca8c365fac017482c9981ad4"
+        }
+      ]
+    }
+  ],
+  "note": "Exact committed source snapshots; packaging changes follow in a separate commit. References are not additional installed apps."
+}
