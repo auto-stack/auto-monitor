@@ -13,8 +13,8 @@ title: "System Monitor"
 title_zh: "系统监视器"
 icon: "activity"
 category: "system"
-front_port: 4025
-back_port: 8425
+front_port: 17836
+back_port: 17837
 desktop: "true"
 theme: "dark"
 accent: "indigo"

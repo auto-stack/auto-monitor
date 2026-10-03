@@ -10,7 +10,7 @@ export default defineConfig({
   reporter: [['list'], ['html', { outputFolder: 'playwright-report', open: 'never' }]],
   outputDir: 'test-results/',
   use: {
-    baseURL: process.env.SYSMON_URL || 'http://localhost:4025',
+    baseURL: process.env.SYSMON_URL || 'http://localhost:17836',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
